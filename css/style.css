@@ -4,8 +4,7 @@ a {text-decoration: none; cursor: pointer; opacity:0.9;}
 a:hover {opacity:1;}
 
 header {width:100%; position:absolute;top:0;left:0;
-display:flex;justify-content:space-between;align-items: center;padding:20px 50px;
-background-color: #fff;}
+display:flex;justify-content:space-between;align-items: center;padding:20px 50px;}
 
 header img {
     width:200px;
@@ -37,8 +36,7 @@ header li:last-child {
         background-image:url(../img/hero.jpg);
         background-size: cover;
         min-height:100vh;
-        color:#fff;
-        display:flex;
+        color:#fff;display:flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -80,7 +78,6 @@ header li:last-child {
     font-size:2rem;
     margin-bottom: 35px;
     color:#191c03;
-    text-align: center;
 }
 .conheca-o-hotel p {
     max-width:800px;
@@ -122,144 +119,4 @@ header li:last-child {
         .conheca-o-hotel .grid li.small, .conheca-o-hotel .grid li.large {
             flex-basis: 100%;
         } 
-}
-
-/* CARACTERISTICAS */
-.caracteristicas {
-    background-color: #191c03;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 50px;
-}
-.caracteristicas h3 {
-    font-size:2rem;
-    margin-bottom: 35px;
-    color:#fff;
-    text-align: center;
-}
-.caracteristicas p {
-    max-width:800px;
-    margin-bottom:35px;
-    color:#fff;
-    text-align: center;
-}
-.caracteristicas hr {
-    width:200px;
-    height:2px;
-    background-color: #fff;
-    margin-bottom: 70px;
-    border:none;
-}
-.caracteristicas .grid {
-    width: 100%;
-    display:flex;
-}
-.caracteristicas .grid li {
-    padding: 0 30px;
-    text-align: center;
-}
-.caracteristicas .grid li i {
-    color:#c3c63b;
-    font-size: 50px;
-    margin-bottom:30px
-}
-.caracteristicas .grid li h4 {
-    font-size:1.5rem;
-    color:#c3c63b;
-    margin-bottom:30px
-}
-.caracteristicas .grid li p {
-    color:#fff;
-}
-
-@media (
-    max-width: 850px) {
-        .caracteristicas .grid {
-           flex-direction: column;
-        } 
-}
-/* NEWSLETTER */
-.newsletter {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    padding: 100px 50px;
-}
-.newsletter h3 {
-    font-size:2rem;
-    margin-bottom: 35px;
-    color:#c3c63b;
-    text-align: center;
-}
-.newsletter p {
-    max-width:800px;
-    margin-bottom:35px;
-    color:#c3c63b;
-    text-align: center;
-}
-.newsletter hr {
-    width:200px;
-    height:2px;
-    background-color: #c3c63b;
-    margin-bottom: 70px;
-    border:none;
-}
-.newsletter form {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-    max-width:800px;
-}
-.newsletter input {
-    padding: 15px;
-    border: 1px solid #c3c63b;
-    border-radius: 4px;
-    margin-right: 15px;
-    flex: 1;
-}
-.newsletter button {
-    padding: 15px;
-    background-color: #c3c63b;
-    color:#fff;
-    text-transform: uppercase;
-    border:none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-@media (
-    max-width: 700px) {
-        .newsletter input {
-            flex-basis: 100%;
-            margin-bottom: 15px;
-          } 
-}
-/* FOOTER */
-footer {
-    display:flex;
-    flex-direction: column;
-    background-color: #191c03;
-    padding: 50px 0;
-}
-footer ul {
-    display:flex;
-    text-align: center;
-    justify-content: center;
-    margin-bottom:25px;
-}
-footer ul li {
-    margin-right: 10px;
-}
-footer ul li:last-child {
-    margin-right: 0;
-}
-footer ul li a {
-    color: #c3c63b;
-    font-size: 2rem;
-}
-footer p {
-    text-align: center;
-    color:#c3c63b;
 }
